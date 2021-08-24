@@ -7,7 +7,7 @@ all: build test
 
 build:
 	mkdir -p bin
-	mv src/main.pl $(TARGET)
+	cp src/main.pl $(TARGET)
 	chmod +x $(TARGET)
 
 test:
